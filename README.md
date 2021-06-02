@@ -1,3 +1,3 @@
 # Meme Gen generator
 ## TODO
-  -optimeze image
+  -add text center in image
