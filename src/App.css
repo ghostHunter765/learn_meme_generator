@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  background-image: linear-gradient(to right,#282c34,#282cAA);
+  display: flex;
+  padding: 10px;
+  font-weight: 900;
+  align-items: center;  
+  justify-content: flex-start;
+  font-size: calc(60px + 2vmin);
+  color: white;
+}
+
+
+.image-logo{
+  padding-right: 20px;
+  background: transparent;
+}
+
+.inputbox{
+  margin: 10px;
+  border: 3px solid rgb(8, 192, 8);
+  border-radius: 6px;
+  font-size: larger;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.inputbox:focus{
+  border: 3px solid rgb(8, 51, 192);
+  border-radius: 6px;
+}
+
+.btn{
+  margin: 5px;
+  padding: 10px;
+  border: 3px ;
+  border-radius: 6px;
+  color: rgb(9, 143, 9);
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  color: white;
+  background-color:rgb(9, 143, 9) ;
+}
+.btn:active{
+  color: white;
+  background-color:rgb(135, 229, 135) ;
+  -webkit-transition: 1.5s;
+  transition: 0.2s;
+}
+
+.div-main{
+  margin: auto;
+  width: 60%;
+  position: relative;
+  text-align: center;
+}
+
+
+.image-meme{
+  padding: 10px;
+  border: 3px solid rgb(9, 143, 9) ;
+  width: 80vh;
+  height: 60vh;
+
+}
+.container {
+  position: relative;
+  width: 500px;
+  color: white;
+}
+
+.text-header{
+  position: absolute;
+  left: 20%;
+  top: 8px;
+  font-size: 70px;
+  font-family: fantasy;
+  font-weight: 900;
+  overflow-x: hidden;
+  white-space: nowrap;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: black;
+
+}
+.text-footer{
+  position: absolute;
+  bottom: 8px;
+  left: 20%;
+  font-size: 70px;
+  white-space: nowrap;
+  overflow-x:hidden;
+  font-family: fantasy;
+  font-weight: 900;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: black;
+}
